@@ -1,6 +1,6 @@
 # Scrap TJSP
 
-Script para extrair os dados de processos do site do Tribunal de Justiça de São Paulo utilizando a biblioteca Selenium da linguagem Python. A ferramenta extrai as informações de cabeçalho dos processos e salva em um arquivo json, além de baixar os pdfs dos acórdãos deles.
+Script para extrair os dados de processos do site do Tribunal de Justiça de São Paulo utilizando a biblioteca Selenium da linguagem Python. A ferramenta extrai as informações de cabeçalho dos processos e salva em formato json, além de baixar os pdfs dos acórdãos deles.
 
 
 ## Histórico:
@@ -27,12 +27,12 @@ Script para extrair os dados de processos do site do Tribunal de Justiça de Sã
 pip install requirements.txt
 ```
 
-### Configurar as Variáveis
+### Configurar as Variáveis no Arquivo `scrap_tjsp_selenium_any.py`
     - API_KEY - Chave da sua API de quebra captcha
     - WORD_TO_SEARCH - Palavra de interesse a ser buscada nos processos
     - NAME_DIR_TO_SAVE_FILES - Diretório em que serão salvos os processos em pdf
 
-### Executar o script
+### Executar o Script
 ```
 python scrap_tjsp_selenium_any.py
 ```
